@@ -3,15 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithread", "Multithread\Multithread.csproj", "{1EF50B94-CBB8-4E5E-800A-38B5EBFE9A49}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.Questions", "WebAPI.Questions\WebAPI.Questions.csproj", "{45AD4D41-A432-4FC0-AD4A-3BA0B7D541A3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApp", "FunctionApp\FunctionApp.csproj", "{9E05A0B5-87C0-4051-B9AF-40F3ECE34DCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Questions", "WebApp.Questions\WebApp.Questions.csproj", "{B26CE164-56D6-40D7-8E54-A76DE16E223B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq.Questions", "Linq.Questions\Linq.Questions.csproj", "{F694C055-8EEF-4B13-B33B-4FC54300497A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewProgrammingQuestions", "InterviewProgrammingQuestions\InterviewProgrammingQuestions.csproj", "{04BCB89A-0767-4837-B4F8-258CFCCF971C}"
 EndProject
@@ -21,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EF50B94-CBB8-4E5E-800A-38B5EBFE9A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EF50B94-CBB8-4E5E-800A-38B5EBFE9A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EF50B94-CBB8-4E5E-800A-38B5EBFE9A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EF50B94-CBB8-4E5E-800A-38B5EBFE9A49}.Release|Any CPU.Build.0 = Release|Any CPU
 		{45AD4D41-A432-4FC0-AD4A-3BA0B7D541A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{45AD4D41-A432-4FC0-AD4A-3BA0B7D541A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45AD4D41-A432-4FC0-AD4A-3BA0B7D541A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,10 +29,6 @@ Global
 		{B26CE164-56D6-40D7-8E54-A76DE16E223B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B26CE164-56D6-40D7-8E54-A76DE16E223B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B26CE164-56D6-40D7-8E54-A76DE16E223B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F694C055-8EEF-4B13-B33B-4FC54300497A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F694C055-8EEF-4B13-B33B-4FC54300497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F694C055-8EEF-4B13-B33B-4FC54300497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F694C055-8EEF-4B13-B33B-4FC54300497A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{04BCB89A-0767-4837-B4F8-258CFCCF971C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{04BCB89A-0767-4837-B4F8-258CFCCF971C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04BCB89A-0767-4837-B4F8-258CFCCF971C}.Release|Any CPU.ActiveCfg = Release|Any CPU
