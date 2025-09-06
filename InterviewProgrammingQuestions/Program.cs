@@ -9,24 +9,30 @@ Console.WriteLine("3. MultiThreading Task Question");
 Console.WriteLine("4. MultiThreading Thread Question");
 var choice = Console.ReadLine();
 
-IQuestion question = choice switch
+IQuestion? question = choice switch
 {
     "1" => new LongProcessAsync(),
     "2" => new MethodCallAsync(),
     _ => null
 };
 
-question?.Run();
+if(question != null)
+{
+    question.Run();
+}
 
-IQuestionVoidAsync questionVoidAsync = choice switch
+IQuestionVoidAsync? questionVoidAsync = choice switch
 {
     "4" => new ThreadQuestion(),
     _ => null
 };
 
-questionVoidAsync?.Run();
+if (questionVoidAsync != null)
+{
+    questionVoidAsync.Run();
+}
 
-IQuestionTaskAsync questionTaskAsync = choice switch
+IQuestionTaskAsync? questionTaskAsync = choice switch
 {
     "3" => new TaskQuestion(),
     _ => null
@@ -34,7 +40,7 @@ IQuestionTaskAsync questionTaskAsync = choice switch
 
 if (questionTaskAsync!=null)
 {
-    await questionTaskAsync?.Run();
+    await questionTaskAsync.Run();
 }
 
 Console.ReadKey();
